@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi primera web</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marc Duran - Portfolio</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #eee;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .container {
+      background: #1f1f1f;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
+    }
+    h1 {
+      color: #4caf50;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    p {
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #4caf50;
+      color: #121212;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      width: fit-content;
+    }
+    a.button:hover {
+      background-color: #388e3c;
+    }
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hola, soy Marc</h1>
-  <p>Esta es mi primera página web usando GitHub Pages.</p>
+  <div class="container">
+    <h1>Marc Duran Busquets</h1>
+    <p>Estudiante de Ingeniería en la Universidad de Girona</p>
+    <p>Apasionado por la tecnología, la programación y el desarrollo web.</p>
+
+    <a class="button" href="https://www.linkedin.com/in/marcduran" target="_blank" rel="noopener noreferrer">
+      Mi LinkedIn
+    </a>
+
+    <a class="button" href="https://github.com/marcduraning" target="_blank" rel="noopener noreferrer" style="margin-top: 15px;">
+      Mi GitHub
+    </a>
+
+    <footer>
+      &copy; 2025 Marc Duran Busquets
+    </footer>
+  </div>
 </body>
 </html>
