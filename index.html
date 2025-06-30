@@ -5,83 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Marc Duran - Portfolio</title>
   <style>
-    /* Reset básico */
-    * {
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #222;
+      color: #eee;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #121212;
-      color: #eee;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    header {
+      background: #4caf50;
       padding: 20px;
-    }
-    .container {
-      background: #1f1f1f;
-      max-width: 600px;
-      width: 100%;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
-    }
-    h1 {
-      color: #4caf50;
-      margin-bottom: 10px;
       text-align: center;
-    }
-    p {
-      margin-bottom: 20px;
-      text-align: center;
-      font-size: 1.1rem;
-    }
-    a.button {
-      display: inline-block;
-      background-color: #4caf50;
-      color: #121212;
-      text-decoration: none;
+      font-size: 2rem;
       font-weight: bold;
-      padding: 12px 24px;
-      border-radius: 25px;
-      transition: background-color 0.3s ease;
-      text-align: center;
-      margin: 0 auto;
-      display: block;
-      width: fit-content;
     }
-    a.button:hover {
-      background-color: #388e3c;
+    section {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    a {
+      color: #4caf50;
+      text-decoration: none;
     }
     footer {
-      margin-top: 30px;
       text-align: center;
-      font-size: 0.9rem;
+      padding: 20px;
+      font-size: 0.8rem;
       color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Marc Duran Busquets</h1>
-    <p>Estudiante de Ingeniería en la Universidad de Girona</p>
-    <p>Apasionado por la tecnología, la programación y el desarrollo web.</p>
+  <header>Marc Duran Busquets</header>
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Soy estudiante de ingeniería en la Universidad de Girona. Me apasiona el desarrollo web y la programación.</p>
 
-    <a class="button" href="https://www.linkedin.com/in/marcduran" target="_blank" rel="noopener noreferrer">
-      Mi LinkedIn
-    </a>
-
-    <a class="button" href="https://github.com/marcduraning" target="_blank" rel="noopener noreferrer" style="margin-top: 15px;">
-      Mi GitHub
-    </a>
-
-    <footer>
-      &copy; 2025 Marc Duran Busquets
-    </footer>
-  </div>
+    <h2>Contacta conmigo</h2>
+    <p><a href="https://github.com/marcduraning" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/marcduran" target="_blank">LinkedIn</a></p>
+  </section>
+  <footer>&copy; 2025 Marc Duran</footer>
 </body>
 </html>
